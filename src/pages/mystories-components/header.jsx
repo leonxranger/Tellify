@@ -13,7 +13,7 @@ export default function Header() {
     const createStory = async ()=>{    
         console.log(userdata)
         await CreateStoryDocument(userdata);
-        navigate("/mystories/newstory");
+        navigate("/newstory");
         
     }
     
