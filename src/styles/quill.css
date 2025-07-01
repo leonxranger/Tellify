@@ -1,0 +1,16 @@
+.ql-container {
+  height: 100% !important;
+  border:none;/* Make the Quill container fill the div */
+}
+
+.ql-editor {
+  margin-top: 2rem;
+  min-height: 500px;  
+  background-color: red;
+  border:solid black 2px;
+        /* Makes the editable area tall */
+}
+
+.ql-toolbar{
+  background-color: white;
+}

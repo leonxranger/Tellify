@@ -1,0 +1,86 @@
+
+
+@font-face {
+  font-family: 'CabinetGrotesk-Bold';
+  src: url('../assets/fonts/CabinetGrotesk_Complete/Fonts/OTF/CabinetGrotesk-Medium.otf') format('opentype');
+}
+
+@font-face {
+  font-family:'CabinetGrotesk-Extrabold' ;
+  src: url("../assets/fonts/CabinetGrotesk_Complete/Fonts/OTF/CabinetGrotesk-Extrabold.otf") format('opentype');
+}
+
+
+
+.logo{
+  height: 65vh;
+  width: 30vw;
+  background-image: url('../assets/logo.png');
+  place-self: center;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+.logoname{
+    font-family: CabinetGrotesk-Bold,sans-serif;
+    font-size: 160px;
+    padding: 0;
+    margin: 0;
+    letter-spacing: 40px;
+    color: #5067AA;
+    text-align: center;
+}
+.slogan{
+    font-family:roboto,sans-serif;
+    color:#86A6DE;
+    text-align: center;
+    letter-spacing: 5px;
+    font-size: larger;
+}
+
+
+.login,.signup{
+  width:5rem ;
+  margin: 0;
+  padding: 0;
+  padding:0.8rem;
+  position: absolute;
+  left: 85%;
+  border-radius:10px ;
+  border: none;
+  background-color: white;
+  border: solid #324F7B 2px;
+  color: #F8F8F8;
+  font-family:CabinetGrotesk-Bold,sans-serif ;
+  margin-top: 0.4%;
+  letter-spacing: 1px;
+}
+.signup{
+  left: 91%;
+}
+.login,.signup:hover{
+  cursor: pointer;
+
+}
+
+.sub-headline{
+
+  margin-top: 10%;
+  place-self: center;
+  
+  color:#324F7B;
+  font-family: 'CabinetGrotesk-Bold';
+  font-size: 30px;
+}
+
+
+.container{
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  height: 400vh;
+  background-color: #F8F8F8;
+
+}
