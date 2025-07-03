@@ -9,7 +9,7 @@ export default  function Newstory(){
         navbar
     </div>
 
-    <div className="flex flex-8 bg-yellow-400 flex-col">
+    <div className="flex flex-8  flex-col">
       <Header></Header>
 
       <TextEditor></TextEditor>
