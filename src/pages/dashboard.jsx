@@ -8,7 +8,7 @@ import Statsidebar from "./dashboard-components/statssidebar";
 import { doc, getDoc} from 'firebase/firestore'
 import { db } from '../config/firebase-config.jsx'
 import { useEffect , useState } from 'react';
-import { useUser } from "./usercontext.jsx";
+import { useUser } from "./usercontext.jsx";  
 export default function Dashboard() {
     const navigate = useNavigate();
           const handleLogout = () => {
