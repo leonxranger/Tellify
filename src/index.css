@@ -1,0 +1,33 @@
+@font-face {
+  font-family: 'CabinetGrotesk-Bold';
+  font-style: normal;
+  src: url('./assets/fonts/CabinetGrotesk_Complete/Fonts/OTF/CabinetGrotesk-Medium.otf') format('opentype');
+}
+
+@font-face {
+  font-family:'CabinetGrotesk-Extrabold' ;
+  src: url("./assets/fonts/CabinetGrotesk_Complete/Fonts/OTF/CabinetGrotesk-Extrabold.otf") format('opentype');
+}
+
+@font-face {
+  font-family: 'CabinetGrotesk-Regular';
+  src: url("./assets/fonts/CabinetGrotesk_Complete/Fonts/OTF/CabinetGrotesk-Regular.otf");
+}
+@theme{
+    --font-CabinetGrotesk-Bold: CabinetGrotesk-Bold,'sans-serif';
+    --font-CabinetGrotesk-Regular:CabinetGrotesk-Regular,'sans-serif';
+    --color-mainblue: #324f7b;
+    --color-secondaryblue: #86A6DE; 
+    
+}
+.ql-editor {
+  min-height: 50px;
+}
+
+
+
+
+@import "tailwindcss";
+
+
+
